@@ -1,7 +1,7 @@
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg");
   background-size: cover;
-  height: 700px;
+  height: 500px;
   color: white;
 }
 
@@ -23,4 +23,8 @@
 
 .colorblocktop {
   padding-top: 20px;
+}
+
+body {
+  font-family: "Calibri Light", Serif;
 }
