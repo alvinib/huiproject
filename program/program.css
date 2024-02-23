@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+.background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg") ;
+  background-size: cover;
+  height: 500px;
+  color: white;
+}
+
+.row {
+  margin-right: 0;
+}
+
+.white-background {
+  background-color: white;
+}
+
+.green-background {
+  background-color: darkseagreen;
+  color: white;
+}
+
+body {
+  font-family: "Calibri Light", serif;
+}
+
+.image-list-small {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+.image-list-small li {
+  display: inline-block;
+  width: auto;
+  margin: 0 12px 30px;
+}
+
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  margin: 0;
+  padding: 0;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+  border-radius: 50%;
+
+  position: relative;
+  width: 150px;
+  overflow: hidden;
+}

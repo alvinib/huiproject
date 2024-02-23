@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-
-
 .background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg") ;
   background-size: cover;
