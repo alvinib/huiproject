@@ -37,7 +37,7 @@ body {
 }
 
 .image-list-small li > a {
-  display: block;
+  display: inline-block;
   text-decoration: none;
   background-size: cover;
   background-position: center;
