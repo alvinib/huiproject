@@ -1,23 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg") ;
   background-size: cover;
   height: 500px;
   color: white;
 }
 
+.background.row {
+  --bs-gutter-x: 0;
+}
+
 .white-background {
   background-color: white;
-  height: 200px;
 }
 
 .grey-background {
   background-color: lightgray;
-  height: 200px;
 }
 
 .grad-background {
   background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://manoa.hawaii.edu/omsshui/rio/images/8.jpg') no-repeat center center fixed;
-  height: 200px;
+  color: white;
+}
+
+.blue-background {
+  background-color: cadetblue;
   color: white;
 }
 
@@ -26,5 +36,10 @@
 }
 
 body {
-  font-family: "Calibri Light", Serif;
+  font-family: "Calibri Light", serif;
 }
+
+.row {
+  margin-right: 0;
+}
+
