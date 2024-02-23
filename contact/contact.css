@@ -20,6 +20,11 @@
   color: white;
 }
 
+.blue-background {
+  background-color: cadetblue;
+  color: white;
+}
+
 body {
   font-family: "Calibri Light", serif;
 }

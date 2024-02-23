@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/images/2017-peer-mentors.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/gallery/images/2019/15.jpg") ;
   background-size: cover;
   height: 500px;
   color: white;
@@ -17,6 +17,11 @@
 
 .green-background {
   background-color: darkseagreen;
+  color: white;
+}
+
+.blue-background {
+  background-color: cadetblue;
   color: white;
 }
 
@@ -37,7 +42,7 @@ body {
 }
 
 .image-list-small li > a {
-  display: inline-block;
+  display: block;
   text-decoration: none;
   background-size: cover;
   background-position: center;
