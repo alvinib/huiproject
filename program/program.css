@@ -16,18 +16,23 @@
   background-color: white;
 }
 
-.green-background {
-  background-color: darkseagreen;
+.teal-background {
+  background-color: #25A18E;
   color: white;
 }
 
 .blue-background {
-  background-color: cadetblue;
+  background-color: #00A5CF;
+  color: white;
+}
+
+.green-background {
+  background-color: #4a7c59;
   color: white;
 }
 
 .grad-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://manoa.hawaii.edu/omsshui/gallery/images/2015/5.jpg') no-repeat  center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.7)) , url('https://manoa.hawaii.edu/omsshui/gallery/images/2018/20.JPG') no-repeat  center center fixed;
   color: white;
 }
 
@@ -54,14 +59,18 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 150px;
+  height: 125px;
   margin: 0 auto;
   padding: 0;
   outline: 1px solid #d0d0d0;
   box-shadow: 0 2px 1px #DDD;
-  border-radius: 50%;
+  border-radius: 0%;
 
   position: relative;
-  width: 150px;
+  width: 125px;
   overflow: hidden;
+}
+
+a.bi {
+  color: white;
 }

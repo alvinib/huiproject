@@ -8,6 +8,11 @@
   color: white;
 }
 
+.grad-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://manoa.hawaii.edu/omsshui/rio/images/8.jpg') no-repeat center center fixed;
+  color: white;
+}
+
 .background.row {
   --bs-gutter-x: 0;
 }
@@ -20,13 +25,18 @@
   background-color: lightgray;
 }
 
-.grad-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://manoa.hawaii.edu/omsshui/rio/images/8.jpg') no-repeat center center fixed;
+.teal-background {
+  background-color: #25A18E;
   color: white;
 }
 
 .blue-background {
-  background-color: cadetblue;
+  background-color: #00A5CF;
+  color: white;
+}
+
+.green-background {
+  background-color: #4a7c59;
   color: white;
 }
 
@@ -40,6 +50,10 @@ body {
 
 .row {
   margin-right: 0;
+}
+
+a.bi {
+  color: white;
 }
 
 

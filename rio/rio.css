@@ -16,13 +16,23 @@
   background-color: white;
 }
 
-.green-background {
-  background-color: darkseagreen;
+.foam-background {
+  background-color: #8fc0a9;
+  color: white;
+}
+
+.teal-background {
+  background-color: #25A18E;
   color: white;
 }
 
 .blue-background {
-  background-color: cadetblue;
+  background-color: #00A5CF;
+  color: white;
+}
+
+.green-background {
+  background-color: #4a7c59;
   color: white;
 }
 
@@ -58,4 +68,8 @@ body {
   position: relative;
   width: 150px;
   overflow: hidden;
+}
+
+a.bi {
+  color: white;
 }
