@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/gallery/images/2019/4.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) , url("images/group2019_2.jpg");
   background-size: cover;
   height: 500px;
   color: white;
@@ -57,7 +57,7 @@ body {
   padding: 0;
   outline: 1px solid #d0d0d0;
   box-shadow: 0 2px 1px #DDD;
-  border-radius: 0%;
+  border-radius: 50%;
 
   position: relative;
   width: 150px;

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.6)) ,url("https://manoa.hawaii.edu/omsshui/gallery/images/2018/Wednesday.JPG") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.6)) ,url("images/cohort2018.JPG") ;
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -9,7 +9,7 @@
 }
 
 .grad-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url('https://manoa.hawaii.edu/omsshui/rio/images/8.jpg') no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("images/group2016.jpg") no-repeat center center fixed;
   color: white;
 }
 

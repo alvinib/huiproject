@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("https://manoa.hawaii.edu/omsshui/gallery/images/2019/15.jpg") ;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("images/group2019.jpg") ;
   background-size: cover;
   /* background-position: center; */
   height: 500px;
@@ -33,6 +33,11 @@
 
 .green-background {
   background-color: #4a7c59;
+  color: white;
+}
+
+.grad-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.7)) , url("images/painting_social_2023.JPG") no-repeat center center fixed;
   color: white;
 }
 
