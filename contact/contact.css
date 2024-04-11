@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) , url("images/group2019_2.jpg");
+  background-image: linear-gradient(160deg, rgba(74, 124, 89, 0.5), rgba(0,0,0,0.6) 70%),
+  url("images/group2019_2.jpg");
   background-size: cover;
   height: 500px;
   color: white;

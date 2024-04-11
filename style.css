@@ -1,20 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.6)) ,url("images/cohort2018.JPG") ;
+  background-image: linear-gradient(160deg, rgba(0, 147, 233, 0.5) 40%, rgba(0,128,128, 0.5) 70%),
+  radial-gradient(ellipse closest-corner at 50% 50%, rgba(34,193,195, 0.6) 0%, rgba(255,255,255,0.0) 100%),
+
+  /*rgb
+  blue = rgb(0, 165, 207)
+  green = rgb(74, 124, 89)
+  linear-gradient(rgba(95,158,160, 0.5),rgba(72, 61, 139,0.3)) ,
+  radial-gradient(ellipse closest-corner at 50% 50%, rgba(34,193,195, 0.5) 0%, rgba(253,187,45,0.4) 100%),background-color: #0093E9;
+  background-image:
+
+  #0093E9 0%, #80D0C7 100%)
+
+    radial-gradient(ellipse closest-corner at 50% 50%, rgba(34,193,195, 0.5) 30%, rgba(253,187,45,0.0) 100%),
+
+  */
+  url("images/cohort2018.JPG") ;
   background-size: cover;
-  background-position: center;
+  background-position: 35% 65%;
   height: 500px;
   color: white;
 }
 
 .grad-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("images/group2016.jpg") no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)) ,url("images/group2016.jpg") no-repeat center center fixed;
   color: white;
 }
 
 .background.row {
   --bs-gutter-x: 0;
+}
+
+.title {
+  font-family: 'Nothing You Could Do', sans-serif;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
 .white-background {
@@ -40,12 +64,14 @@
   color: white;
 }
 
-.colorblocktop {
-  padding-top: 20px;
+.video {
+  overflow: auto;
+  display: block;
+  height: fit-content;
 }
 
-body {
-  font-family: 'Poppins', sans-serif;
+.colorblocktop {
+  padding-top: 20px;
 }
 
 .row {
@@ -55,6 +81,13 @@ body {
 a.bi {
   color: white;
 }
+
+.row>video {
+  width: 75%;
+  height: 500px;
+}
+
+
 
 
 

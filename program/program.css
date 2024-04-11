@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 .background {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.8)) ,url("images/group2018.JPG");
+  background-image: linear-gradient(160deg, rgba(0,128,128, 0.5), rgba(0,0,0,0.6) 70%), url("images/group2018.JPG");
   background-size: cover;
   background-position: center;
   height: 500px;
   color: white;
+
+  /*
+  radial-gradient(ellipse closest-corner at 50% 50%, darkslategray 1%, rgba(0, 0, 0, 0.3) 70%),
+   */
+
 }
 
 .row {
@@ -32,12 +38,17 @@
 }
 
 .grad-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.627),rgba(0, 0, 0, 0.7)) , url("images/group2018.JPG") no-repeat  center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.7)),  url("images/throwback_2023.JPG") no-repeat  center center fixed;
   color: white;
 }
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+
+.title {
+  font-family: 'Nothing You Could Do', sans-serif;
+
 }
 
 .image-list-small {
@@ -59,7 +70,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 125px;
+  height: 150px;
   margin: 0 auto;
   padding: 0;
   outline: 1px solid #d0d0d0;
@@ -67,7 +78,7 @@ body {
   border-radius: 50%;
 
   position: relative;
-  width: 125px;
+  width: 150px;
   overflow: hidden;
 }
 
