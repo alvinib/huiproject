@@ -11,22 +11,16 @@
 </head>
 
 <body>
-<!--HUI logo -->
-  <div class="row">
-    <div class="col">
-      <img src="https://manoa.hawaii.edu/omsshui/images/logo.png" class="img-fluid rounded mx-auto d-block py-1" width="75px">
-    </div>
-  </div>
 
-<!-- top header -->
+<!--HUI header -->
   <header class="navbar navbar-expand-lg navbar-light">
-    <div class="container-fluid">
-      <a class="navbar-brand mx-auto" href="#">Hawai'i Undergraduate Initiative</a>
-    </div>
+    <a class="navbar-brand mx-auto" href="#"><img src="images/transparent_logo.png" class="img-fluid rounded mx-auto d-block" width="100px">Hawai'i Undergraduate Initiative</a>
   </header>
 
+
+
 <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -103,7 +97,7 @@
      <div class="ui container colorblocktop pt-5 pb-5">
        <h2 class="ui header">2024 HUI Summer Program Application Now Open!</h2>
        <h2><a href="https://go.hawaii.edu/n6H" target="_blank"><b>APPLY TODAY</b></a></h2>
-       <i>Deadline to submit application form is Friday, April 26, 2024 at 11:59 PM HST</i>
+       <i>Deadline to submit application form is Friday, May 3, 2024 at 11:59 PM HST</i>
      </div>
    </div>
 
@@ -151,6 +145,22 @@
       </div>
     </div>
   </div>
+
+<!-- sticky navbar -->
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
 
 
 </body>

@@ -11,22 +11,13 @@
 </head>
 <body>
 
-<!--HUI logo -->
-<div class="row">
-  <div class="col">
-    <img src="https://manoa.hawaii.edu/omsshui/images/logo.png" class="img-fluid rounded mx-auto d-block py-1" width="75px">
-  </div>
-</div>
-
-<!-- top header -->
+<!--HUI header -->
 <header class="navbar navbar-expand-lg navbar-light">
-  <div class="container-fluid">
-    <a class="navbar-brand mx-auto" href="#">Hawai'i Undergraduate Initiative</a>
-  </div>
+  <a class="navbar-brand mx-auto" href="#"><img src="https://manoa.hawaii.edu/omsshui/images/transparent_logo.png" class="img-fluid rounded mx-auto d-block" width="100px">Hawai'i Undergraduate Initiative</a>
 </header>
 
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -92,18 +83,25 @@
 
             <div class="container">
               <h3>English 100 - Composition I</h3>
+              <b>Instructor: Jiyoung Lee</b>
               <p>Introduction to the rhetorical, conceptual and stylistic demands of writing at the university level; instruction in composing processes, search strategies, and writing from sources. <b>(FW, 3 credits)</b>
               </p>
               <br>
 
               <h3>Ethnic Studies 101 - Introduction to Ethnic Studies</h3>
+              <b>Instructor: Richard Jay "RJ" Ozoa-Aglugub</b>
               <p>Basic concepts and theories for analyzing dynamics of ethnic group experiences, particularly those represented in Hawai‘i, and their relation to colonization, immigration, problems of identity, racism, and social class. <b>(DS, HAP 3 credits)</b></p>
               <br>
 
               <h3>Education Foundations 310 - Race, Class, Gender in Popular Culture</h3>
+              <b>Instructor: Aaron Machida</b>
               <p>Education impacts individuals from all professions. To sustain occupational growth and knowledge, it is important to understand how education evolved over time. Educational progression and inquiry within American society will be explored within this course. An examination of these facets will be conducted through oral discussion, writing, and reflection. <b>(DS, 3 credits)</b></p>
               <br>
             </div>
+
+          <div style="text-align: center;">
+            <img src="images/instructors_SU24.png" alt="Summer Instructors 2024" height="500" >
+          </div>
 
           <h2 class="text-center"><b>Applicant Eligibility</b></h2>
           <div class="container s-2 e-2 p-3">
@@ -128,7 +126,7 @@
   <div class="ui container colorblocktop pt-5 pb-5">
     <h2 class="ui header">2024 HUI Summer Program Application Now Open!</h2>
     <h2><a href="https://go.hawaii.edu/n6H" target="_blank"><b>APPLY TODAY</b></a></h2>
-    <i>Deadline to submit application form is Friday, April 26, 2024 at 11:59 PM HST</i>
+    <i>Deadline to submit application form is Friday, May 3, 2024 at 11:59 PM HST</i>
   </div>
 </div>
 
@@ -249,6 +247,22 @@
     </div>
   </div>
 </div>
+
+<!-- sticky navbar -->
+<script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+</script>
 
 
 </body>
