@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
 
 .background {
-  background-image: linear-gradient(160deg, rgba(0, 147, 233, 0.5) 40%, rgba(0,128,128, 0.5) 70%),
-  radial-gradient(ellipse closest-corner at 50% 50%, rgba(34,193,195, 0.6) 0%, rgba(255,255,255,0.0) 100%),
+  background-image: linear-gradient(160deg, rgba(0, 0, 0, 0.7) 40%, rgba(0,0,0, 0.6) 70%),
+  radial-gradient(ellipse closest-corner at 50% 50%, rgba(200,290,290, 0.6) 0%, rgba(255,255,255,0.0) 100%),
 
   /*rgb
   blue = rgb(0, 165, 207)
@@ -17,7 +17,7 @@
     radial-gradient(ellipse closest-corner at 50% 50%, rgba(34,193,195, 0.5) 30%, rgba(253,187,45,0.0) 100%),
 
   */
-  url("images/cohort2018.JPG") ;
+  url("images/cohort2024.JPG") ;
   background-size: cover;
   background-position: 35% 65%;
   height: 500px;
