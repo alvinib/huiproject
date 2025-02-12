@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
-@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans');
 
 .background {
   background-image: linear-gradient(160deg, rgba(0,128,128, 0.5), rgba(0,0,0,0.6) 70%), url("images/group2018.JPG");
@@ -43,7 +42,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Albert Sans', sans-serif;
 }
 
 .title {
