@@ -50,6 +50,12 @@ body {
 
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
 .image-list-small {
   margin: 0 auto;
   align-content: center;
@@ -93,4 +99,5 @@ a.bi {
 
 .navbar {
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  z-index: 1;
 }
